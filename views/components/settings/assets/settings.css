@@ -1,0 +1,83 @@
+#SettingsView .divider {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#SettingsView .divider hr {
+  margin-bottom: 15.5px;
+}
+#SettingsView #navigator-bar .container {
+  display: flex;
+  align-items: center;
+}
+#SettingsView #navigator-bar {
+  margin-bottom: 0px;
+}
+#SettingsView #navigator-bar .form-group {
+  margin-bottom: 0px;
+}
+#SettingsView #navigator-bar .container .btn-group {
+  float: right;
+}
+#SettingsView #poi-config .form-group {
+  margin-bottom: 0px;
+}
+#SettingsView #poi-config #poi-resolutionr-config {
+  display: flex;
+  align-items: center;
+}
+#SettingsView #poi-others .avatar-img {
+  cursor: pointer !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+#SettingsView #poi-others .avatar-img:hover {
+  transform: rotate(360deg);
+  transition-duration: 3s;
+}
+#SettingsView input[type=range],
+#SettingsView input[type=range]:focus,
+#SettingsView input[type=range]:active,
+#SettingsView input[type=range]:hover {
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+#SettingsView .nav-pills > li > a {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#SettingsView .notif-button {
+  width: 20%;
+}
+#SettingsView .folder-picker {
+  width: 100%;
+  height: 100%;
+  border-width: 2px;
+  border-color: #666;
+  border-style: dashed;
+  border-radius: 0;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+}
+#SettingsView .div-col {
+  display: flex;
+  flex-flow: column;
+}
+#SettingsView .div-row {
+  display: flex;
+  flex-flow: row;
+}
+#SettingsView .control-button {
+  margin: 0px;
+  height: 30px;
+}
+#SettingsView .control-button > button,
+#SettingsView .plugin-control-button {
+  padding: 5px 7px;
+}
+#SettingsView button .fa {
+  margin-right: 2px;
+}
