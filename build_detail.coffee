@@ -14,7 +14,7 @@ n7z = require 'node-7z'
 _ = require 'underscore'
 semver = require 'semver'
 {execAsync} = Promise.promisifyAll require('child_process')
-{compile} = require 'coffee-react'
+{compile} = require 'coff ee-react'
 asar = require 'asar'
 walk = require 'walk'
 
