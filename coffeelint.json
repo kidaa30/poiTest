@@ -13,7 +13,7 @@
         "level": "error"
     },
     "colon_assignment_spacing": {
-        "level": "error",
+        "level": "error",fafassd
         "spacing": {
             "left": 0,
             "right": 1
